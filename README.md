@@ -111,7 +111,11 @@ implementation 'com.journeyapps:zxing-android-embedded:3.5.0'
        }
    ```
 
- CustomCaptureActivity 在扫描获取到内容后，自动关闭。**如果获取到扫描内容后，手动控制扫描页面的关闭，还需要在扫描页面做业务逻辑交互的，可以使用 feature/v1.0.0 里面的方式。**
+ CustomCaptureActivity 在扫描获取到内容后，自动关闭。
+
+**如果获取到扫描内容后，手动控制扫描页面的关闭，还需要在扫描页面做业务逻辑交互的，可以使用下面这个库。**
+
+[ZXing 精简版，扫码识别速度快如微信](https://github.com/jenly1314/ZXingLite)
 
 # 参考
 
