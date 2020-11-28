@@ -7,16 +7,9 @@
     android:layout_margin="10dp">
 
     <Button
-        android:id="@+id/btn01"
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="扫描实现方式一（扫码后立即关闭扫码页）"
-        tools:ignore="HardcodedText" />
-    <Button
-        android:id="@+id/btn02"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="扫描实现方式二（Zxing-Lite 更灵活）"
+        android:text="开启扫描"
         tools:ignore="HardcodedText" />
 </LinearLayout>

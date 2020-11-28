@@ -1,9 +1,8 @@
-package com.xzy.scan;
+package com.xzy.scan.realization01;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
@@ -14,6 +13,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.journeyapps.barcodescanner.CaptureManager;
 import com.journeyapps.barcodescanner.DecoratedBarcodeView;
+import com.xzy.scan.R;
 
 import java.util.Objects;
 
@@ -22,7 +22,7 @@ import java.util.Objects;
  * @Description: 自定义条形码/二维码扫描
  * @Author: xzy
  */
-public class CustomCaptureActivity extends AppCompatActivity {
+public class CustomCaptureActivity01 extends AppCompatActivity {
 
     /**
      * 条形码扫描管理器

@@ -1,4 +1,4 @@
-package com.xzy.scan;
+package com.xzy.scan.realization01;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

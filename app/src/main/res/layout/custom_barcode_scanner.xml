@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:id="@+id/zxing_barcode_surface"/>
 
-    <com.xzy.scan.CustomViewfinderView
+    <com.xzy.scan.realization01.CustomViewfinderView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/zxing_viewfinder_view"/>
